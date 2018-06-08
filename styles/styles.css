@@ -1,0 +1,116 @@
+ @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+	padding: 0;
+	margin:0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.background {
+        background: url('images/background_image.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+
+  
+.title{
+	margin-top: 60px;
+	width: 100%;
+}
+
+.title h1{
+	text-align: center;
+	color:white;
+    font-size: 90px;
+    font-weight: lighter;
+}
+
+.title h2{
+    margin: 0;
+	text-align: center;
+	color:white;
+    font-weight: lighter;
+    padding-bottom: 18px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.description_1{
+    background-color: #303F9F;
+    padding:40px;
+    color: white;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.nomargin{
+    margin:0 !important;
+}
+
+.cell_services{
+    text-align: center;
+    padding: 30px;
+    background-color:rgba(79,146,206,0.3);
+}
+
+.cell_services p{
+    padding-top: 15px;
+    color: white;
+}
+
+.icon {
+    padding-top: 22px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #303F9F;
+    font-size: 55px;
+    color: white;
+    opacity: 0.9;
+    
+}
+
+.cell_contact{
+    width: 100%;
+    height: 250px;
+    padding: 30px;
+    background-color:rgba(2,83,180,0.3);
+}
+
+.cell_contact h3{
+    color:white;
+}
+
+.cell_contact p{
+    padding-left: 20px;
+    color:white;
+}
+.cell_contact i{
+    padding-right: 5px;
+    color:white;
+}
+
+
+@media screen and (orientation: portrait) {
+
+    .title h2{
+        font-size: 42px;
+    }
+
+    p{
+        font-size: 35px;
+    }
+
+    .icon {
+    padding-top: 51px;
+    width: 250px;
+    height: 250px;
+    font-size: 150px;
+    }
+}

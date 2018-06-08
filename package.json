@@ -1,0 +1,9 @@
+{
+  "name": "denalec",
+  "version": "1.0.0",
+  "description": "page to denalec sl ",
+  "dependencies": {
+    "aos": "^2.3.0",
+    "boostrap": "^2.0.0"
+  }
+}
