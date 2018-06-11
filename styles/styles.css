@@ -54,10 +54,14 @@
 }
 
 .cell_services{
+    width: 100%;
+    height: 250px;
     text-align: center;
     padding: 30px;
     background-color:rgba(79,146,206,0.3);
+
 }
+
 
 .cell_services p{
     padding-top: 15px;
@@ -72,9 +76,11 @@
     background-color: #303F9F;
     font-size: 55px;
     color: white;
-    opacity: 0.9;
-    
+    opacity: 0.9;    
 }
+
+
+/* ROW 2 */
 
 .cell_contact{
     width: 100%;
@@ -102,6 +108,8 @@
     width: 100%;
     text-align: center;
 }
+
+
 
 .btn {
   margin: 10px;
@@ -141,6 +149,10 @@
         width: 250px;
         height: 250px;
         font-size: 150px;
+    }
+
+    .cell_services{
+        height: 420px;
     }
 
     .cell_contact{
